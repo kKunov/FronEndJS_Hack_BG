@@ -1,0 +1,19 @@
+{
+  "name": "onlineshop",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kKunov/FronEndJS_Hack_BG",
+  "authors": [
+    "Kokal <slim_shady121.2@abv.bg>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "express": "~4.12.3"
+  }
+}
