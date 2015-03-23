@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    background-color: #FF9900;
+    border: 2px solid #00006B;
+    border-radius: 5px;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first_comment {
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+    background-image: url(../img/eminem-fireworks-on-green-31690-hd-wallpapers.jpg);
+    background-repeat:  repeat;
+}
+
+div {
+    background-color: #480036;
+    border: 2px solid #0052CC;
+    border-radius: 10px;
+}
+
+.story {
+    width: 50em;
+    float: left;
+}
+
+.sidebar {
+    margin-right: 1px;
+    width: 23em;
+    float: right;
+}
+
+
+div > p{
+    color: white;
+    font-family: Comic;
+    margin-left: 1em;
+}
+
+#navbar {
+    width: 20em;
+    height: 3em;
+    margin-top: -14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar_list {
+    display: inline;
+    border: 3px solid #3399FF;
+    background-color: #003300;
+}
+
+.navbar_link {
+    text-decoration: none;
+}
+
+.navbar_link:hover {
+    color: #00A300;
+}
+
+.navbar_link:link {
+    color: #B20000;
+}
+
+.navbar_link:visited {
+    color: #B20000;
+}
+
+.form {
+    width: 30em;
+    height: 10em;
+    margin-bottom: -2px;
+}
