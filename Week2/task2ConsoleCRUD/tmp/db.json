@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Kokal",
+    "email": "kokal@sda.com"
+  },
+  {
+    "id": "2",
+    "name": "Shady",
+    "email": "shady@adsa.com"
+  },
+  {
+    "id": "3",
+    "name": "BaceMitko",
+    "email": "bacemitko@asda.com"
+  },
+  {
+    "id": "4",
+    "name": "Acheto",
+    "email": "acheto@adsa.com"
+  }
+]
