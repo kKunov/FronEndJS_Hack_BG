@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        title Students
+
+
+    body
+        form#add-student
+            select(name='dropdown')
+                option(value='default') __Select Option__
+                option(value='add') Add Student
+                option(value='update') Update Student
+                option(value='delete') Delete Student
+                option(value='select') Select Student by ID
+            input#id(type='text')
+            input#name(type='text')
+            input#email(type='text')
+            input#classes(type='text')
+            button#button(type='button') Submit
+
+        table
+            thead
+                tr
+                    th id
+                    th name
+                    th email
+                    th classes
+            tbody#list
+
+        script(src="/lib/jquery/dist/jquery.js")
+        script(src="app.js")
+            // on init load all students
+            // on form submit add student and refresh students list

@@ -1,0 +1,18 @@
+.divs {
+    background-color: #0F0FA1;
+    border: 5px solid #000033;
+    border-radius: 10px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1em;
+
+    width: 10em;
+    height: 3.5em;
+}
+.navbar1 {
+    width: 3em;
+    margin-top: 0.7em;
+    margin-right: -2px;
+    margin-left: -2em;
+}

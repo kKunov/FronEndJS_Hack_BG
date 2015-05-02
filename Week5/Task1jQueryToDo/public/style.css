@@ -1,0 +1,12 @@
+body {
+    background-color: #35352B;
+}
+
+li {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.first-list {
+list-style-type: none;
+}
