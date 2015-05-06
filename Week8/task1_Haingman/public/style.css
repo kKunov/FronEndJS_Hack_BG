@@ -1,0 +1,40 @@
+body {
+    background-color: #333333;
+    color: #00A300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+li {
+    display: inline;
+    color: #0099FF;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+input {
+    background-color: #333333;
+    border-color: black;
+}
+
+button {
+    background-color: #555;
+    border-color: black;
+}
+
+#start-new-game {
+    font-size: 25px;
+    color: #00A300;
+}
+
+#start-new-game:hover {
+    color: #0099FF;
+}

@@ -13,7 +13,7 @@ function addStudent(){
             name: inpName,
             email: inpEmail,
             classes: inpClasses,
-            }
+        }
     }).done(function(data){
         list();
     })

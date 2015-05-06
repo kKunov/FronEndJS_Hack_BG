@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        title Haingman
+        link(href='lib/bootstrap/dist/css/bootstrap.css', rel='stylesheet', type='text/css')
+        link(rel="stylesheet" type="text/css" href="style.css")
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+
+    body
+        .col-xs-4.col-xs-offset-4
+            h1.text-center
+
+        .col-xs-4.col-xs-offset-4
+            h2.text-center
+
+        .col-xs-2.col-xs-offset-5.text-center
+            ul
+                li Mistakes:
+
+        .col-xs-2.col-xs-offset-5
+            .container
+                input
+                button(type='button') Check?!?
+
+        .col-xs-2.col-xs-offset-5
+            .container
+                a#start-new-game
+
+        script(src="/lib/jquery/dist/jquery.js")
+        script(src="app.js")

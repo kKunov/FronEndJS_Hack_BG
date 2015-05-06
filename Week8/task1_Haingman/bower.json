@@ -1,0 +1,21 @@
+{
+  "name": "task1_Haingman",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kKunov/FronEndJS_Hack_BG",
+  "authors": [
+    "Kaloian Kunov <kkunov121@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "require": "*",
+    "express": "~4.12.3",
+  }
+}
