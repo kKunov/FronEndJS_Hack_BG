@@ -1,0 +1,21 @@
+{
+  "name": "Task2RestResourseClass",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kKunov/FronEndJS_Hack_BG",
+  "authors": [
+    "Kaloian Kunov <kkunov121@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "express": "~4.12.3",
+    "jquery": "~2.1.4"
+  }
+}

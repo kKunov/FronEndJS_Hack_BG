@@ -34,8 +34,6 @@ function list(){
             var email = element['email'];
             var classes = element['classes'];
 
-
-
             var tr = $("<tr></tr>");
 
             tr.append($("<td></td>").html(id));
