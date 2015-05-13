@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "express": "~4.12.3",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "q": "~2.0.2"
   }
 }

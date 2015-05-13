@@ -1,0 +1,19 @@
+{
+  "name": "F1_2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "jquery": "^2.1.4",
+    "jsonfile": "^2.0.0"
+  }
+}

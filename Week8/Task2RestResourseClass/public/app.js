@@ -3,52 +3,52 @@ function Resource(url){
 }
 
 Resource.prototype.query = function(){
-        return Q($.ajax({
-                    url: this.url,
-                    dataType: 'json',
-                    method: 'get',
-                }).done(function(data){
-                    console.log(data)
-                    for(var i = 0; i < data['list'].length; i++){
-                        console.log(data['list'][i])
-                    }
-                }))
-}
-
-Resource.prototype.create = function(data){
-    return Q($.ajax({
+    $.ajax({
             url: this.url,
-            dataType: 'json',
-            method: 'post',
-            data: data,
-        }))
-}
-
-Resource.prototype.view = function(id){
-    return Q($.ajax({
-            url: this.url + '/' + id,
             dataType: 'json',
             method: 'get',
         }).done(function(data){
             console.log(data)
-        }))
+            for(var i = 0; i < data['list'].length; i++){
+                console.log(data['list'][i])
+            }
+        })
+}
+
+Resource.prototype.create = function(data){
+    $.ajax({
+        url: this.url,
+        dataType: 'json',
+        method: 'post',
+        data: data,
+    })
+}
+
+Resource.prototype.view = function(id){
+    $.ajax({
+        url: this.url + '/' + id,
+        dataType: 'json',
+        method: 'get',
+    }).done(function(data){
+        console.log(data)
+    })
 }
 
 Resource.prototype.update = function(id, data){
-    return Q($.ajax({
-            url: this.url + '/' + id,
-            dataType: 'json',
-            method: 'put',
-            data: data,
-        }))
+    $.ajax({
+        url: this.url + '/' + id,
+        dataType: 'json',
+        method: 'put',
+        data: data,
+    })
 }
 
 Resource.prototype.delete = function(id){
-    return Q($.ajax({
-            url: this.url + '/' + id,
-            dataType: 'json',
-            method: 'delete',
-        }))
+    $.ajax({
+        url: this.url + '/' + id,
+        dataType: 'json',
+        method: 'delete',
+    })
 }
 
 $(document).ready(function() {

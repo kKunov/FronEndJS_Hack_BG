@@ -1,0 +1,81 @@
+{
+    "mercedes": {
+        "name": "Mercedes AMG Petronas Formula One Team",
+        "driver1": "L.Hamilton",
+        "driver2": "N.Rosberg",
+        "engine": "Mercedes",
+        "pic": "img/mercedes.png"
+        },
+
+    "ferrari": {
+        "name": "Scuderia Ferrari",
+        "driver1": "S.Vettel",
+        "driver2": "K.Raikkonen",
+        "engine": "Ferrari",
+        "pic": "img/ferrari.png"
+        },
+
+    "williams": {
+        "name": "Williams Martini Racing",
+        "driver1": "F.Massa",
+        "driver2": "V.Bottas",
+        "engine": "Mercedes",
+        "pic": "img/williams.png"
+        },
+
+    "red_bull": {
+        "name": "Infiniti Red Bull Racing",
+        "driver1": "D.Ricciardo",
+        "driver2": "D.Kvyat",
+        "engine": "Renault",
+        "pic": "img/red_bull.png"
+        },
+
+    "sauber": {
+        "name": "Sauber F1 Team",
+        "driver1": "M.Ericsson",
+        "driver2": "F.Nasr",
+        "engine": "Ferrari",
+        "pic": "img/sauber.png"
+        },
+
+    "lotus": {
+        "name": "Lotus F1 Team",
+        "driver1": "R.Grosjean",
+        "driver2": "P.Maldonado",
+        "engine": "Mercedes",
+        "pic": "img/lotus.png"
+        },
+
+    "toro_rosso": {
+        "name": "Scuderia Toro Rosso",
+        "driver1": "M.Verstappen",
+        "driver2": "C.Sainz",
+        "engine": "Renault",
+        "pic": "img/toro_rosso.png"
+        },
+
+    "force_india": {
+        "name": "Sahara Force India F1 Team",
+        "driver1": "S.Perez",
+        "driver2": "N.Hulkenberg",
+        "engine": "Mercedes",
+        "pic": "img/force_india.png"
+        },
+
+    "mclaren": {
+        "name": "McLaren Honda",
+        "driver1": "F.Alonso",
+        "driver2": "j.Button",
+        "engine": "Honda",
+        "pic": "img/mclaren.png"
+        },
+
+    "marussia": {
+        "name": "Manor Marussia F1 Team",
+        "driver1": "W.Stevens",
+        "driver2": "R.Merhi",
+        "engine": "Ferrari",
+        "pic": "img/marussia.png"
+        },
+}
