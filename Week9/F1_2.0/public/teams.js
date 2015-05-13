@@ -14,22 +14,27 @@ function show() {
         var tdDrivers = $("<td></td>");
         var img = $("<img></img>");
         var p = $("<p></p>");
-        var driverName1 = $("<h2></h2>").append(team.driver1);
-        var driverName2 = $("<h2></h2>").append(team.driver2);
+        var driverName1 = $("<h2></h2>").append(team["driver1"]);
+        var driverName2 = $("<h2></h2>").append(team["driver2"]);
+        var engine = $("<td></td>").append(team["engine"]);
 
-        img.attr('src', team.pic);
+        img.attr('src', team["pic"]);
         p.attr('class', 'text-center');
-        p.text(team.name);
+        p.append(team["name"]);
+
         tdTeam.append(img);
         tdTeam.append(p);
-        tr.append(tdTeam);
+
         tdDrivers.append(driverName1);
         tdDrivers.append(driversName2);
-
-
+        tr.append(tdTeam);
+        tr.append(tdDrivers);
+        tr.append(engine);
+        tbody.append(tr);
     });
 }
 
 $(document).ready(function () {
     loadJson();
+    show();
 })
